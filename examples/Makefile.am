@@ -46,8 +46,7 @@ noinst_PROGRAMS = client libevent-client libevent-server deflate
 
 client_SOURCES = client.c
 
-libevent_client_SOURCES = libevent-client.c
-
+libevent_client_SOURCES = libevent-client.cc hlsparser.cc
 libevent_server_SOURCES = libevent-server.c
 
 deflate_SOURCES = deflate.c
